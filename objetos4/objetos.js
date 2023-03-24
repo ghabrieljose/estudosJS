@@ -8,10 +8,13 @@ let jogador = {
     }
 }
 
-console.log(jogador.nome)
-console.log(jogador.numGol)
-jogador.gol(2)
-console.log(jogador.numGol)
+// console.log(jogador.nome)
+// console.log(jogador.numGol)
+// jogador.gol(2)
+// console.log(jogador.numGol)
 
 jogador.posicao = 'Meio Campo'
+console.log(jogador)
+
+delete jogador.idade
 console.log(jogador)

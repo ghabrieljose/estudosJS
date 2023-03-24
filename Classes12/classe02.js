@@ -12,4 +12,6 @@ class jogador{
 const Neymar = new jogador('Neymar', 'Atacante', 400)
 Neymar.golsMarcados()
 const Pele = new jogador('Pelé', 'Atacante', 1000)
-Neymar.golsMarcados()
+Pele.golsMarcados()
+
+console.log(typeof jogador)
